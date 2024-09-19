@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<!--这个结构是注释-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>网页</title><!--打开的网页的标题——看最上面顶头啊-->
+        <link rel="stylesheet" href="css/Untitled-1.css">
+        <script src="js/Untitled-1.js"></script>
+        <style>
+            .header{
+                position:relative;
+                display: block;
+                color: white;
+                text-align: center;
+                height: 10%;
+                top:0%;
+                background-color: rgb(214, 136, 136);
+            }
+            .footer{
+                position: absolute;
+                display: block;
+                color: white;
+                text-align: center;
+                font-size: xx-large;
+                width: 100%;
+                height: 10%;
+                bottom:0;
+                background-color: rgb(19, 8, 161);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="header"><h1>导航栏</h1></div>
+        <div class="content">
+            <div class="imgs">
+            <img src="pics/1.png" alt="Example Image1">
+        </div>
+        </div>
+        <div>
+        <button id="left">&lt;</button>
+        <button id="right">&gt;</button>
+        </div>
+        <div class="footer">页脚内容</div>
+        <audio preload="auto" autoplay loop>
+            <source src="music/唯一的星光.mp3" type="audio/mp3">
+        </audio>
+        
+        <script>
+            document.addEventListener('click', function() {
+                var audio = document.querySelector('audio');
+                audio.play();
+                document.removeEventListener('click', arguments.callee);
+            });
+        </script>  
+    </body>
+</html>
+    
