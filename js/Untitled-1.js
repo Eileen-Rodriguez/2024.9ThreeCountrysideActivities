@@ -14,10 +14,10 @@ window.onload = function(){
 	var prev = document.getElementById("left");
 	var next = document.getElementById("right");
 
-	var imgArr = ["pics/1.png","pics/2.png","pics/3.png","pics/4.png","pics/5.png",
-		"pics/6.png","pics/7.png","pics/8.png","pics/9.png","pics/10.png",
-		"pics/11.png","pics/12.png","pics/13.png","pics/14.png","pics/15.png",
-		"pics/16.png","pics/17.png","pics/18.png","pics/19.png","pics/20.png","pics/21.png"];
+	var imgArr = ["pics/1.jpg","pics/2.jpg","pics/3.jpg","pics/4.jpg","pics/5.jpg",
+		"pics/6.jpg","pics/7.jpg","pics/8.jpg","pics/9.jpg","pics/10.jpg",
+		"pics/11.jpg","pics/12.jpg","pics/13.jpg","pics/14.jpg","pics/15.jpg",
+		"pics/16.jpg","pics/17.jpg","pics/18.jpg","pics/19.jpg","pics/20.jpg","pics/21.jpg"];
 	var imgs = document.getElementsByTagName("img");
 	var index = 0;
 	//分别为两个按钮绑定单击响应函数
