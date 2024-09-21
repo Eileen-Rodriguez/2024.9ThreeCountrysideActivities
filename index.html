@@ -5,47 +5,58 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>网页</title><!--打开的网页的标题——看最上面顶头啊-->
+        <title>泉州簪花绘本</title>
         <link rel="stylesheet" href="css/Untitled-1.css">
         <script src="js/Untitled-1.js"></script>
         <style>
             .header{
                 position:relative;
                 display: block;
-                color: white;
+                color:rgba(111,70,68);
+                font-size:50px;
                 text-align: center;
                 height: 10%;
                 top:0%;
-                background-color: rgb(214, 136, 136);
+                background-color: rgb(255, 222, 159);
+                line-height: 1.5vw;
             }
             .footer{
                 position: absolute;
                 display: block;
-                color: white;
                 text-align: center;
-                font-size: xx-large;
+                font-size: x-large;
+                color:rgba(111,70,68);
                 width: 100%;
-                height: 10%;
+                height: 100px;
                 bottom:0;
-                background-color: rgb(19, 8, 161);
+                background-color: rgb(255, 222, 159);
+                border-bottom: 10px solid rgba(0, 0, 0, 0.5);
+                padding-bottom: 10px;
+            }
+            .footer img {
+                width: 40px;  
+                height: 40px; 
+                border-radius: 50%; 
             }
 
         </style>
     </head>
     <body>
-        <div class="header"><h1>导航栏</h1></div>
+        <div class="header"><br>蟳埔花海<br></div>
         <div class="content">
             <div class="imgs">
-            <img src="pics/1.png" alt="Example Image1">
+            <img src="pics/1.jpg" alt="Example Image1">
         </div>
         </div>
         <div>
         <button id="left">&lt;</button>
         <button id="right">&gt;</button>
         </div>
-        <div class="footer">页脚内容</div>
+        <div class="footer">
+                <br><img src="pics/22.jpg" alt="icon" class="icon"> &nbsp;
+                        青岛大学师范学院“花绘筑童心，非遗新未来”|“闽思”社会实践团队</div>
         <audio preload="auto" autoplay loop>
-            <source src="music/唯一的星光.mp3" type="audio/mp3">
+            <source src="music/音乐.mp3" type="audio/mp3">
         </audio>
         
         <script>
